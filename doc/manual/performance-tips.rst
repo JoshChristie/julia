@@ -153,7 +153,7 @@ Consider the following::
         push!(a, f)
     end
 
-Because ``a`` is a an array of abstract type :class:`Real`, it must be able
+Because ``a`` is an array of abstract type :class:`Real`, it must be able
 to hold any Real value.  Since :class:`Real` objects can be of arbitrary
 size and structure, ``a`` must be represented as an array of pointers to
 individually allocated :class:`Real` objects.  Because ``f`` will always be
